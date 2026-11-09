@@ -1,0 +1,70 @@
+// Личные данные и контакты
+export const PERSONAL = {
+  fullName: 'Маликова Айтолгон Жоробековна',
+  shortName: 'Маликова Айтолгон',
+  role: 'Frontend Developer',
+  roleRu: 'Начинающий фронтенд-разработчик',
+  email: 'aytolgonmalikova@gmail.com',
+  phone: '+996504889991',
+  phoneDisplay: '+996 504 889 991',
+  github: 'https://github.com/aytolgonmalikova-ship-it',
+  githubUser: 'aytolgonmalikova-ship-it',
+  whatsapp: 'https://wa.me/996504889991',
+  cv: '/Malikova_Aytolgon_CV.pdf',
+};
+
+export const NAV_LINKS = [
+  { id: 'about', label: 'О себе' },
+  { id: 'projects', label: 'Проекты' },
+  { id: 'skills', label: 'Навыки' },
+  { id: 'contact', label: 'Контакты' },
+];
+
+// Проекты.
+// liveUrl: вставьте ссылку на деплой Vercel. Пока поле пустое,
+// кнопка «Live Demo» показывается как неактивная («Скоро»).
+// image: можно указать путь к скриншоту в /public (например '/projects/aroma-donna.png').
+// Если image не задан — используется сгенерированное превью.
+export const PROJECTS = [
+  {
+    id: 'aroma-donna',
+    title: 'Aroma Donna',
+    description:
+      'E-commerce веб-приложение для бренда парфюмерии с каталогом, корзиной и оформлением заказа.',
+    tech: ['React', 'Vite', 'Tailwind CSS', 'Firebase'],
+    githubUrl: 'https://github.com/aytolgonmalikova-ship-it/aroma-donna',
+    liveUrl: 'https://aroma-donna.vercel.app',
+    image: '/aroma-donna.PNG',
+    preview: {
+      gradient: 'from-rose-400 via-pink-500 to-fuchsia-600',
+      emoji: '🌸',
+      tagline: 'Parfum Store',
+    },
+  },
+  {
+    id: 'perfect-playtime',
+    title: 'Perfect Playtime',
+    description:
+      'Интерактивное веб-приложение с адаптивным интерфейсом и компонентной архитектурой на React. Удобная навигация и современный UI на Tailwind CSS.',
+    tech: ['React', 'Vite', 'Tailwind CSS'],
+    githubUrl: 'https://github.com/aytolgonmalikova-ship-it/perfect-playtime',
+    liveUrl: 'https://perfectplaytime-virid.vercel.app',
+    image: '/05.png',
+    preview: {
+      gradient: 'from-sky-400 via-indigo-500 to-violet-600',
+      emoji: '🎮',
+      tagline: 'Interactive App',
+    },
+  },
+];
+
+export const SKILLS = [
+  { name: 'React', color: 'text-sky-500 bg-sky-50', abbr: '⚛' },
+  { name: 'Vite', color: 'text-violet-600 bg-violet-50', abbr: '⚡' },
+  { name: 'HTML5', color: 'text-orange-600 bg-orange-50', abbr: '5' },
+  { name: 'CSS3', color: 'text-blue-600 bg-blue-50', abbr: '3' },
+  { name: 'Tailwind CSS', color: 'text-cyan-600 bg-cyan-50', abbr: '~' },
+  { name: 'JavaScript', color: 'text-yellow-600 bg-yellow-50', abbr: 'JS' },
+  { name: 'Git', color: 'text-red-600 bg-red-50', abbr: 'G' },
+  { name: 'GitHub', color: 'text-slate-800 bg-slate-100', abbr: 'GH' },
+];
