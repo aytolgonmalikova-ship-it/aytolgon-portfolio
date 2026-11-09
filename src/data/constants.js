@@ -56,6 +56,21 @@ export const PROJECTS = [
       tagline: 'Interactive App',
     },
   },
+  {
+    id: 'easy-peasy-english',
+    title: 'Easy Peasy English',
+    description:
+      'Интерактивное веб-приложение для детских курсов английского языка с мультяшным дизайном, переключением тем, поддержкой 3 языков и валидацией форм.',
+    tech: ['React', 'Vite', 'Tailwind CSS', 'i18next'],
+    githubUrl: 'https://github.com/aytolgonmalikova-ship-it/easy-peasy-english',
+    liveUrl: 'https://easy-peasy-english-ten.vercel.app', // проверь свою ссылку на Vercel
+    image: '/english.png', // или имя твоего скриншота из папки public
+    preview: {
+      gradient: 'from-amber-400 via-orange-400 to-yellow-400',
+      emoji: '🧸',
+      tagline: 'Kids English App',
+    },
+  },
 ];
 
 export const SKILLS = [
