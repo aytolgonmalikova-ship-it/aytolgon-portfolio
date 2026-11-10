@@ -71,6 +71,22 @@ export const PROJECTS = [
       tagline: 'Kids English App',
     },
   },
+  {
+    id: 'u-mamy-na-kuhne',
+    title: 'У мамы на кухне',
+    description:
+      'Уютный мультиязычный веб-сайт для заказа сладкой и несладкой домашней выпечки с переключением тем, формой заказа и интеграцией WhatsApp.',
+    tech: ['React', 'Vite', 'Tailwind CSS', 'i18next', 'React Router'],
+    githubUrl: 'https://github.com/aytolgonmalikova-ship-it/u-mamy-na-kuhne',
+    liveUrl: 'https://u-mamy-na-kuhne.vercel.app', // укажи свою ссылку из Vercel
+    image: '/vypechka.png', // путь к твоему скриншоту
+    preview: {
+      gradient: 'from-amber-500 via-orange-500 to-yellow-600',
+      emoji: '🥐',
+      tagline: 'Bakery & Pastry',
+    },
+  },
+    
 ];
 
 export const SKILLS = [
