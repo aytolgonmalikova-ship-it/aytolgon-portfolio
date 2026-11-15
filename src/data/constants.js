@@ -86,14 +86,13 @@ export const PROJECTS = [
       tagline: 'Bakery & Pastry',
     },
   },
-    
-
-{
+  {
   id: "azalia-flower-shop",
   title: "Цветочный интернет-магазин «Азалия»",
   category: "E-Commerce / Fullstack Frontend",
   description: "Интерактивное e-commerce веб-приложение с каталогом букетов, корзиной, оформлением заказа, защищенной админ-панелью и интеграцией облачных сервисов.",
   image: "/azalia.shop.png", // скриншот проекта
+  tech: ["React", "Vite", "Firebase", "Firestore", "EmailJS", "Tailwind CSS"],
   tags: ["React", "Vite", "Firebase", "Firestore", "EmailJS", "Tailwind CSS"],
   liveUrl: "https://azalia-flower-shop.vercel.app",
   githubUrl: "https://github.com/aytolgonmalikova-ship-it/azalia-flower-shop",
