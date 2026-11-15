@@ -41,6 +41,22 @@ export const NAV_LINKS = [
 // Если image не задан — используется сгенерированное превью.
 export const PROJECTS = [
   {
+    id: 'junior-toy-store',
+    title: 'Junior — интернет-магазин детских игрушек',
+    category: 'E-Commerce / Frontend',
+    description:
+      'Полнофункциональный интернет-магазин игрушек с каталогом и фильтрацией по категориям, светлой и тёмной темой, поддержкой 3 языков (RU/KG/EN), быстрым заказом через WhatsApp и встроенной админ-панелью с ролевым доступом (Главный админ и Администратор, CRUD через LocalStorage).',
+    tech: ['React', 'Vite', 'React Router', 'Tailwind CSS', 'Context API', 'LocalStorage'],
+    githubUrl: 'https://github.com/aytolgonmalikova-ship-it/junior-toy-store',
+    liveUrl: 'https://junior-toy-store.vercel.app',
+    image: '/junior.png',
+    preview: {
+      gradient: 'from-sky-300 via-amber-200 to-rose-300',
+      emoji: '🧸',
+      tagline: 'Toy Store',
+    },
+  },
+  {
     id: 'aroma-donna',
     title: 'Aroma Donna',
     description:
