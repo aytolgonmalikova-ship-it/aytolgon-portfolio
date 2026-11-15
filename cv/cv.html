@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>cv.html</title>
+<style>
+  @page { size: A4; margin: 14mm 18mm; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.45; color: #1e293b; }
+  a { color: #4f46e5; text-decoration: none; }
+  h1 { margin: 0; font-size: 30px; line-height: 1.2; color: #0f172a; }
+  .role { margin: 8px 0 14px; font-size: 17px; font-weight: bold; color: #4f46e5; }
+  .contacts { margin: 0; padding-bottom: 12px; border-bottom: 3px solid #4f46e5; font-size: 14px; line-height: 1.45; color: #475569; }
+  h2 { margin: 16px 0 7px; font-size: 14px; letter-spacing: 1.2px; text-transform: uppercase; color: #4f46e5; }
+  p { margin: 0; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px 4px; margin: 0; padding: 0; list-style: none; }
+  .chips li { padding: 2px 10px; border-radius: 999px; background: #eef2ff; color: #4338ca; font-size: 13px; }
+  .langs { display: flex; gap: 28px; margin: 0; padding: 0; list-style: none; }
+  .langs span { color: #64748b; }
+  .project { margin-bottom: 8px; break-inside: avoid; }
+  .project .tech { font-size: 12.5px; color: #64748b; }
+  .project .links { font-size: 12.5px; color: #64748b; }
+  .project .links a { color: #64748b; text-decoration: underline; }
+  .muted { color: #64748b; }
+</style>
+</head>
+<body>
+  <h1>Маликова Айтолгон Жоробековна</h1>
+  <p class="role">Frontend Developer (начинающий фронтенд-разработчик)</p>
+  <p class="contacts">
+    Email: <a href="mailto:aytolgonmalikova@gmail.com">aytolgonmalikova@gmail.com</a> &nbsp;|&nbsp;
+    WhatsApp: <a href="https://wa.me/996504889991">+996 504 889 991</a> &nbsp;|&nbsp;
+    GitHub: <a href="https://github.com/aytolgonmalikova-ship-it">github.com/aytolgonmalikova-ship-it</a>
+  </p>
+
+  <h2>О себе</h2>
+  <p>Начинающий фронтенд-разработчик. Активно развиваюсь в веб-разработке, фокусируюсь на написании чистого кода, использовании современных инструментов (React, Vite, Tailwind CSS) и верстке адаптивных интерфейсов.</p>
+
+  <h2>Навыки</h2>
+  <ul class="chips">
+    <li>React</li><li>Vite</li><li>JavaScript</li><li>HTML5</li><li>CSS3</li><li>Tailwind CSS</li>
+    <li>Firebase</li><li>Git</li><li>GitHub</li><li>Адаптивная вёрстка</li>
+  </ul>
+
+  <h2>Образование</h2>
+  <p><strong>Бишкекский государственный университет имени К. Карасаева (БГУ)</strong></p>
+  <p class="muted">Факультет европейских цивилизаций</p>
+
+  <h2>Языки</h2>
+  <ul class="langs">
+    <li><strong>Кыргызский</strong> <span>— родной</span></li>
+    <li><strong>Русский</strong> <span>— свободно</span></li>
+    <li><strong>Английский</strong> <span>— Upper-Intermediate</span></li>
+  </ul>
+
+  <h2>Проекты</h2>
+  <div class="project">
+    <p><strong>Цветочный интернет-магазин «Азалия»</strong> <span class="tech">— React, Vite, Firebase, Firestore, EmailJS, Tailwind CSS</span></p>
+    <p>E-commerce веб-приложение с каталогом букетов, корзиной, оформлением заказа, защищённой админ-панелью и автоматическими email-уведомлениями.</p>
+    <p class="links">Demo: <a href="https://azalia-flower-shop.vercel.app">azalia-flower-shop.vercel.app</a> &nbsp;|&nbsp; GitHub: <a href="https://github.com/aytolgonmalikova-ship-it/azalia-flower-shop">github.com/aytolgonmalikova-ship-it/azalia-flower-shop</a></p>
+  </div>
+  <div class="project">
+    <p><strong>Веб-сайт пекарни «У мамы на кухне»</strong> <span class="tech">— React, Vite, Tailwind CSS, i18next, React Router</span></p>
+    <p>Мультиязычный сайт для заказа домашней выпечки с переключением тем, формой заказа и интеграцией WhatsApp.</p>
+    <p class="links">Demo: <a href="https://u-mamy-na-kuhne.vercel.app">u-mamy-na-kuhne.vercel.app</a> &nbsp;|&nbsp; GitHub: <a href="https://github.com/aytolgonmalikova-ship-it/u-mamy-na-kuhne">github.com/aytolgonmalikova-ship-it/u-mamy-na-kuhne</a></p>
+  </div>
+  <div class="project">
+    <p><strong>Онлайн-маркетплейс парфюмерии Aroma Donna</strong> <span class="tech">— React, Vite, Tailwind CSS, Firebase, Firestore, reCAPTCHA, Telegram API</span></p>
+    <p>E-commerce веб-приложение для бренда парфюмерии с каталогом, корзиной и оформлением заказа.</p>
+    <p class="links">Demo: <a href="https://aroma-donna.vercel.app">aroma-donna.vercel.app</a> &nbsp;|&nbsp; GitHub: <a href="https://github.com/aytolgonmalikova-ship-it/aroma-donna">github.com/aytolgonmalikova-ship-it/aroma-donna</a></p>
+  </div>
+  <div class="project">
+    <p><strong>Perfect Playtime</strong> <span class="tech">— React, Vite, Tailwind CSS</span></p>
+    <p>Интерактивное веб-приложение с адаптивным интерфейсом и компонентной архитектурой на React.</p>
+    <p class="links">Demo: <a href="https://perfectplaytime-virid.vercel.app">perfectplaytime-virid.vercel.app</a> &nbsp;|&nbsp; GitHub: <a href="https://github.com/aytolgonmalikova-ship-it/perfect-playtime">github.com/aytolgonmalikova-ship-it/perfect-playtime</a></p>
+  </div>
+  <div class="project">
+    <p><strong>Сайт-портфолио</strong> <span class="tech">— React, Vite, Tailwind CSS</span></p>
+    <p>Мой основной проект: адаптивный одностраничный сайт с разделами «О себе», «Проекты», «Навыки» и «Контакты».</p>
+    <p class="links">GitHub: <a href="https://github.com/aytolgonmalikova-ship-it/aytolgon-portfolio">github.com/aytolgonmalikova-ship-it/aytolgon-portfolio</a></p>
+  </div>
+</body>
+</html>

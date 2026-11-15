@@ -13,6 +13,20 @@ export const PERSONAL = {
   cv: '/Malikova_Aytolgon_CV.pdf',
 };
 
+// Образование
+export const EDUCATION = {
+  university: 'Бишкекский государственный университет имени К. Карасаева',
+  universityShort: 'БГУ им. К. Карасаева',
+  faculty: 'Факультет европейских цивилизаций',
+};
+
+// Языки. level — заполненность шкалы от 1 до 5.
+export const LANGUAGES = [
+  { name: 'Кыргызский', nativeName: 'Кыргызча', code: 'KG', levelLabel: 'Родной', level: 5 },
+  { name: 'Русский', nativeName: 'Русский', code: 'RU', levelLabel: 'Свободно', level: 5 },
+  { name: 'Английский', nativeName: 'English', code: 'EN', levelLabel: 'Upper-Intermediate', level: 4 },
+];
+
 export const NAV_LINKS = [
   { id: 'about', label: 'О себе' },
   { id: 'projects', label: 'Проекты' },
