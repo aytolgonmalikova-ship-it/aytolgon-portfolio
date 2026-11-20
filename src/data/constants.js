@@ -41,6 +41,22 @@ export const NAV_LINKS = [
 // Если image не задан — используется сгенерированное превью.
 export const PROJECTS = [
   {
+    id: 'event-horizon',
+    title: 'Event Horizon («Горизонт событий»)',
+    category: 'Frontend',
+    description:
+      'Научно-популярный сайт о космосе на трёх языках (RU / EN / KG): разделы о Солнечной системе, звёздах, галактиках, чёрных дырах и Вселенной, а также фото дня от NASA (APOD API).',
+    tech: ['React', 'Vite', 'Tailwind CSS', 'React Router', 'NASA APOD API', 'i18n'],
+    githubUrl: 'https://github.com/aytolgonmalikova-ship-it/event-horizon-space',
+    liveUrl: 'https://event-horizon-space.vercel.app',
+    image: '/event-horizon.png',
+    preview: {
+      gradient: 'from-slate-900 via-indigo-900 to-amber-500',
+      emoji: '🪐',
+      tagline: 'Space Portal',
+    },
+  },
+  {
     id: 'junior-toy-store',
     title: 'Junior — интернет-магазин детских игрушек',
     category: 'E-Commerce / Frontend',
